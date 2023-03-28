@@ -1,0 +1,64 @@
+.Security {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #64c297;
+    text-align: center;
+  }
+  
+  .control-panel,
+  .device-management,
+  .manage-buildings {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .control label {
+    flex-grow: 1;
+    margin-right: 1rem;
+    text-align: right;
+    min-width: 200px;
+  }
+  
+  .button {
+    background-color: #499070;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 0.5rem;
+  }
+  
+  .button:hover {
+    background-color: #64c297;
+  }
+  
